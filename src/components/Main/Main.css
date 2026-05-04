@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   height: 80%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
 
   display: flex;
@@ -10,12 +10,6 @@
   justify-content: center;
   height: 100vh;
   font-family: sans-serif;
-
-  background-image: url("https://preview.redd.it/para-qu%C3%A9-se-recauda-tanta-plata-v0-42rdxf7hdmqg1.jpeg?auto=webp&s=7e30f4333814bb95a53b8c53837c712da414ba9e");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .countdown {
@@ -34,6 +28,23 @@
   color: red;
   margin: 0px;
   font-size: 37px;
+
+  background-color: rgba(0, 0, 0, 0.594);
+  height: 40px;
+  width: 270px;
+  border-radius: 10px;
+
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .countdown-container {

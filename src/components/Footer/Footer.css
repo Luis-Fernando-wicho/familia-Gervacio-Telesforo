@@ -12,4 +12,14 @@
 
 .footer__link {
   color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.wixo {
+  height: 50px;
+  margin: 0px;
 }

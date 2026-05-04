@@ -1,4 +1,6 @@
 import "./Footer.css";
+import wixoname from "../../assets/WIX-O.svg";
+import wixologo from "../../assets/LOGO-WiX-O-BYN.svg";
 
 function Footer() {
   return (
@@ -9,6 +11,8 @@ function Footer() {
           target="_blank"
           className="footer__link"
         >
+          {/* <img src={wixologo} alt="wixo-name" className="wixo" /> */}
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="70"
@@ -26,6 +30,8 @@ function Footer() {
             <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
             <path d="M16.5 7.5v.01" />
           </svg>
+
+          <img src={wixoname} alt="wixo-name" className="wixo" />
         </a>
       </footer>
     </>

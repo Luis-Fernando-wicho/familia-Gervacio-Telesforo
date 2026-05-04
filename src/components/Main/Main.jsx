@@ -34,7 +34,7 @@ function Main() {
   return (
     <div className="main">
       <div className="countdown">
-        <h1>Próximamente</h1>
+        <h1>COMING SOON</h1>
         <div className="countdown-container">
           <div className="time-box">
             <span>{timeLeft.days}</span>
