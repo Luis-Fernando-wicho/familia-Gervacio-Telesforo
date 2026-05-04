@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: #ffffff;
+  min-width: 300px;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  /* dvh es "Dynamic Viewport Height", ideal para móviles */
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+
+  align-items: center;
+
+  color: #fff;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: Inter, Arial, sans-serif;
+}
