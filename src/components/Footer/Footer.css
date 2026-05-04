@@ -1,8 +1,8 @@
 .footer {
   width: 100%;
-  height: 15%;
-  background-color: black;
-  color: white;
+  height: 10%;
+  background-color: white;
+  color: black;
   padding: 0px;
 
   display: flex;
@@ -11,5 +11,5 @@
 }
 
 .footer__link {
-  color: white;
+  color: black;
 }
