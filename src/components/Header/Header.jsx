@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-import NavBar from "./NavBar";
 import "./Header.css";
 
 function Header() {
