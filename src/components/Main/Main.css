@@ -12,6 +12,12 @@
   font-family: sans-serif;
 }
 
+.main svg {
+  color: greenyellow;
+  backdrop-filter: blur(3px);
+  border-radius: 100%;
+}
+
 .countdown {
   backdrop-filter: blur(3px);
   height: 25%;
