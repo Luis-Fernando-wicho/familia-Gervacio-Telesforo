@@ -11,8 +11,6 @@ function Footer() {
           target="_blank"
           className="footer__link"
         >
-          {/* <img src={wixologo} alt="wixo-name" className="wixo" /> */}
-
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="70"

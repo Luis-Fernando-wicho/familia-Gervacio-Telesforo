@@ -5,7 +5,7 @@
 }
 
 .page {
-  background-color: #ffffff;
+  background-color: #e2c2b3;
   min-width: 300px;
   max-width: 500px;
 
@@ -27,13 +27,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-family: Inter, Arial, sans-serif;
-
-  background-image: url("./assets/Gemini_Generated_Image_3kbfq73kbfq73kbf.png");
-  backdrop-filter: blur(3px);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
   font-family: "Shadows Into Light", cursive;
   font-weight: 400;

@@ -1,8 +1,8 @@
 .footer {
   width: 100%;
-  height: 10%;
-  background-color: white;
-  color: black;
+  height: 5%;
+  background-color: #e2c2b3;
+  color: #fdfbf7;
   padding: 0px;
 
   display: flex;
@@ -11,15 +11,22 @@
 }
 
 .footer__link {
-  color: black;
-  width: 100%;
+  color: #4a4036;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7px;
 }
 
+.footer__link svg {
+  height: 20px;
+  width: 20px;
+}
+
 .wixo {
-  height: 50px;
+  height: 20px;
   margin: 0px;
+  filter: invert(99%) sepia(5%) saturate(306%) hue-rotate(334deg)
+    brightness(115%) contrast(96%);
 }
