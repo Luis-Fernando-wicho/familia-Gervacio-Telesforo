@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Main.css";
+import imager from "../../assets/WhatsApp Image 2026-06-11 at 7.20.35 PM.jpeg";
 
 function Main() {
   const targetDate = new Date("2026-05-29T14:00:00").getTime();
@@ -37,48 +38,7 @@ function Main() {
 
   return (
     <div className="main">
-      <div className="main__image">
-        {/* {isExpired ? (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="400"
-            height="400"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-            <path d="M9 12l2 2l4 -4" />
-          </svg>
-        ) : (
-          <div className="countdown">
-            <h1>COMING SOON</h1>
-            <div className="countdown-container">
-              <div className="time-box">
-                <span>{timeLeft.days}</span>
-                <p>Días</p>
-              </div>
-              <div className="time-box">
-                <span>{timeLeft.hours}</span>
-                <p>Horas</p>
-              </div>
-              <div className="time-box">
-                <span>{timeLeft.minutes}</span>
-                <p>Minutos</p>
-              </div>
-              <div className="time-box">
-                <span>{timeLeft.seconds}</span>
-                <p>Segundos</p>
-              </div>
-            </div>
-          </div>
-        )} */}
-      </div>
+      <img className="main__image" src={imager} alt="/" />
     </div>
   );
 }

@@ -9,6 +9,12 @@
 
   justify-items: center;
   align-items: center;
+
+  border-top: 10px solid rgba(212, 175, 55, 0.4);
+  box-shadow:
+    0 -12px 20px -6px rgba(212, 175, 55, 0.6),
+    0 -25px 40px -12px rgba(212, 175, 55, 0.3),
+    inset 0 12px 15px -6px rgba(212, 175, 55, 0.4);
 }
 
 .header__text {
